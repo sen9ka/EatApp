@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_location"
+            android:icon="@drawable/ic_baseline_location_on_24"
+            android:title="@string/menu_location" />
+    </group>
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_category"
+            android:icon="@drawable/ic_baseline_restaurant_24"
+            android:title="@string/menu_category" />
+    </group>
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_send_news"
+            android:icon="@drawable/ic_baseline_markunread_24"
+            android:title="@string/menu_send_news" />
+    </group>
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_best_deals"
+            android:icon="@drawable/ic_baseline_star_24"
+            android:title="@string/menu_best_deals" />
+    </group>
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_most_popular"
+            android:icon="@drawable/ic_baseline_whatshot_24"
+            android:title="@string/menu_most_popular" />
+    </group>
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_order"
+            android:icon="@drawable/ic_baseline_list_24"
+            android:title="@string/menu_order" />
+    </group>
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_shipper"
+            android:icon="@drawable/ic_baseline_local_shipping_24"
+            android:title="@string/menu_shipper" />
+    </group>
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_sign_out"
+            android:icon="@drawable/ic_baseline_exit_to_app_24"
+            android:title="@string/menu_sign_out" />
+    </group>
+</menu>
